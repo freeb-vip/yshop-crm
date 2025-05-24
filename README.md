@@ -72,6 +72,9 @@ yshop-crm意象客户关系管理系统，专门为企业销售团队量身定�
     mvn clean install package '-Dmaven.test.skip=true'
     ```
 -   3.5 启动项目
+    ```
+    java -jar yshop-server/target/yshop-server.jar --spring.config.location=file:./yshop-server/src/main/resources/
+    ```
 
 ##### 4、后台vue启动
 
